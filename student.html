@@ -1,0 +1,68 @@
+
+  <body>
+    <div class="container">
+      
+      <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">New Student</a>
+        <a href="#">Modify</a>
+        <a href="#">Remove</a>
+        <a href="#">View</a>
+      </div>
+    </div>
+    <h1>student detail</h1>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"] {
+            width: 300px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            padding: 8px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Information Form</h2>
+    <form action="123.php" method="post">
+        
+        <label for="studentID">Student ID:</label>
+        <input type="text" id="studentID" name="studentID" required>
+
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName" required>
+
+
+        <label for="studentAddress">Student Address:</label>
+        <input type="text" id="studentAddress" name="studentAddress" required>
+
+        <label for="ContactNumber">Contact Number:</label>
+        <input type="text" id="ContactNumber" name="ContactNumber" required>
+
+<br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="clear">
+    </form>
+</body>
+</html>
+    
+  </body>
+  </html>
